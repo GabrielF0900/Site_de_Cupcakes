@@ -1,0 +1,456 @@
+@charset "UTG-8";
+@font-face {
+    font-family: 'produtos';
+    src: url(fontes/GreyQo-Regular.ttf);
+}
+@font-face {
+    font-family: 'cupcake';
+    src: url(fontes/Gugi-Regular.ttf);
+}
+body {
+    height: 4000px;
+    background-color: rgb(236, 210, 209);
+}
+
+/* Inicio do cabecalho */
+
+#cabecalho {
+    display: flex;
+}
+
+.titulo_introducao {
+    position: absolute;
+    font-family: 'cupcake';
+    left: 570px;
+    margin-top: 130px;
+    color: rgb(207, 91, 91);
+    font-size: 70px;
+    transform: scaleX(1.5);
+}
+/* Fim do cabecalho */
+
+#corpo1 {
+    display: flex;
+    background-color: rgb(236, 210, 209);
+    height: 500px;
+}
+
+#cupcakes {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    gap: 70px;
+    border: 50px;
+}
+
+.cupcake1 {
+    border-radius: 20%;
+}
+
+.cupcake2 {
+    border-radius: 20%;
+}
+
+.cupcake3 {
+    border-radius: 20%;
+}
+
+.cupcake4 {
+    border-radius: 20%;
+}
+
+.cupcake5 {
+    border-radius: 20%;
+}
+
+#fundo_descricao {
+    justify-content: space-between;
+}
+
+.fundo_cupcake1 {
+    display: flex;
+    position: absolute;
+    margin-left: -1350px;
+    margin-top: 200px;
+    border-radius: 20%;
+    opacity: 80%;
+}
+
+.fundo_cupcake2 {
+    display: flex;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -1080px;
+    border-radius: 20%;
+    opacity: 80%;
+}
+
+.fundo_cupcake3 {
+    display: flex;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -810px;
+    border-radius: 20%;
+    opacity: 80%;   
+}
+
+.fundo_cupcake4 {
+    display: flex;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -540px;
+    border-radius: 20%;
+    opacity: 80%;
+}
+
+.fundo_cupcake5 {
+    display: flex;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -270px;
+    opacity: 80%;
+    border-radius: 20%;
+}
+
+.titulo_cupcake1  {
+    display: flex;
+    position: absolute;
+    margin: -1400px;
+    margin-top: 250px;
+    font-family: 'produtos';
+    font-size: 30px; 
+    
+}
+
+.titulo_cupcake2 {
+    display: flex;
+    margin: 250px;
+    margin-left: -1120px;
+    position: absolute;
+    font-size: 30px;  
+    font-family: 'produtos';  
+}
+
+.titulo_cupcake3 {
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    font-family: 'produtos';
+    margin: 250px;
+    margin-left: -865px;
+}
+
+.titulo_cupcake4 {
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    font-family: 'produtos';
+    margin-left: -590px;
+    margin-top: 250px;
+    
+}
+
+.titulo_cupcake5 {
+    display: flex;
+    position: relative;
+    margin-top: 250px;
+    margin-left: -320px;
+    font-family: 'produtos';
+    font-size: 30px;
+}
+    
+#categorias {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 600px;
+    gap: 60px;
+
+}
+
+.titulo_categoria {
+    display: flex;
+    font-size: 40px;
+    top: 100px;
+    font-family: 'cupcake';
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 520px;
+    color: black;
+}
+
+.categoria_bolo1 {
+    border-radius: 50%;
+}
+
+.categoria_torta1 {
+    border-radius: 50%;
+}
+
+.categoria_salgado1 {
+    border-radius: 50%;
+}
+
+.categoria_cha1 {
+    border-radius: 50%;
+}
+
+.categoria_milkshake1 {
+    border-radius: 50%;
+}
+
+#corpo2 {
+    display: flex;
+    position: absolute;
+    margin-top: 1200px;
+}
+
+.divisao_bolo {
+    display: flex;
+    position: absolute;
+    margin-left: -100px;
+}
+
+.titulo_bolo {
+    display: flex;
+    position: absolute;
+    font-size: 70px;
+    font-family: 'cupcake';
+    margin-left: 500px;
+    margin-top: 130px;
+    transform: scaleX(1.5);
+    color: rgb(207, 91, 91);
+}
+
+.bolos_produtos {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    margin-top: 600px;
+    gap: 70px;
+}
+
+.bolo1 {
+    border-radius: 20%;
+}
+
+.bolo2 {
+    border-radius: 20%;
+}
+
+.bolo3 {
+    border-radius: 20%;
+}
+
+.bolo4 {
+    border-radius: 20%;
+}
+
+.bolo5 {
+    border-radius: 20%;
+}
+
+.descricao_bolos {
+    display: flex;
+    position: absolute;
+    margin-top: 800px;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.fundo_bolo1 {
+    border-radius: 20%;
+}
+
+.fundo_bolo2 {
+    border-radius: 20%;
+}
+
+.fundo_bolo3 {
+    border-radius: 20%;
+}
+
+.fundo_bolo4 {
+    border-radius: 20%;
+}
+
+.fundo_bolo5 {
+    border-radius: 20%;
+}
+
+.titulos_bolos {
+    display: flex;
+    position: absolute;
+    gap: 70px;
+    margin-top: 830px;
+    font-family: 'produtos';
+    white-space: nowrap;
+}
+
+.titulo_bolo1 {
+    margin-left: 30px;
+    font-size: 30px;
+    position: absolute;
+    
+}
+
+.titulo_bolo2 {
+    font-size: 30px;
+    position: absolute;
+    margin-left: 220px;
+}
+
+.titulo_bolo3 {
+    font-size: 30px;
+    position: absolute;
+    margin-left: 430px;
+}
+
+.titulo_bolo4 {
+    font-size: 30px;
+    position: absolute;
+    margin-left: 630px;
+}
+
+.titulo_bolo5 {
+    font-size: 30px;
+    position: absolute;
+    margin-left: 830px;
+}
+
+.tortas {
+    display: flex;
+    position: absolute;
+    margin-top: 1200px;
+}
+
+.divisao {
+    margin-left: -90px;
+}
+
+.titulo_torta {
+    display: flex;
+    position: absolute;
+    font-size: 70px;
+    font-family: 'cupcake';
+    color: rgb(207, 91, 91);
+    margin-left: 500px;
+    margin-top: 120px;
+
+}.tortas_produtos {
+    display: flex;
+    position: absolute;
+    margin-top: 750px;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.torta1 {
+    border-radius: 20%;
+}
+
+.torta2 {
+    border-radius: 20%;
+}
+
+.torta3 {
+    border-radius: 20%;
+}
+
+.torta4 {
+    border-radius: 20%;
+}
+
+.torta5 {
+    border-radius: 20%;
+}
+
+.descricao_torta {
+    display: flex;
+    position: absolute;
+    margin-top: 200px;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.fundo_torta1 {
+    border-radius: 20%;
+}
+
+.fundo_torta2 {
+    border-radius: 20%;
+}
+
+.fundo_torta3 {
+    border-radius: 20%;
+}
+
+.fundo_torta4 {
+    border-radius: 20%;
+}
+
+.fundo_torta5 {
+    border-radius: 20%;
+}
+
+.titulos_tortas {
+    display: flex;
+    position: absolute;
+    gap: 70px;
+    margin-top: 990px;
+    font-family: 'produtos';
+    white-space: nowrap;
+}
+
+.titulo_torta1 {
+    display: flex;
+    position: absolute;
+    margin-left: 45px;
+    font-size: 25px;
+}
+
+.titulo_torta2 {
+    display: flex;
+    position: absolute;
+    margin-left: 230px;
+    font-size: 25px;
+}
+
+.titulo_torta3 {
+    display: flex;
+    position: absolute;
+    margin-left: 430px;
+    font-size: 25px;
+}
+
+.titulo_torta4 {
+    display: flex;
+    position: absolute;
+    margin-left: 630px;
+    font-size: 25px;
+}
+
+.titulo_torta5 {
+    display: flex;
+    position: absolute;
+    margin-left: 830px;
+    font-size: 25px;
+}
+
+#rodape {
+    display: flex;
+    position: absolute;
+    margin-top: 1300px;
+    margin-left: -100px;
+    opacity: 60%;
+}
+
+
+.titulo_rodape {
+    display: flex;
+    position: absolute;
+    margin-left: 600px;
+    font-family: 'cupcake';
+    margin-top: 150px;
+    color: rgb(207, 91, 91);
+}
